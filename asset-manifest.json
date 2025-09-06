@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/srajan-m/portfolio.git/static/css/main.c75bcb8e.css",
-    "main.js": "/srajan-m/portfolio.git/static/js/main.0e921710.js",
-    "static/js/453.438d9e50.chunk.js": "/srajan-m/portfolio.git/static/js/453.438d9e50.chunk.js",
-    "index.html": "/srajan-m/portfolio.git/index.html",
-    "main.c75bcb8e.css.map": "/srajan-m/portfolio.git/static/css/main.c75bcb8e.css.map",
-    "main.0e921710.js.map": "/srajan-m/portfolio.git/static/js/main.0e921710.js.map",
-    "453.438d9e50.chunk.js.map": "/srajan-m/portfolio.git/static/js/453.438d9e50.chunk.js.map"
+    "main.css": "/portfolio/static/css/main.c75bcb8e.css",
+    "main.js": "/portfolio/static/js/main.9cd213c6.js",
+    "static/js/453.438d9e50.chunk.js": "/portfolio/static/js/453.438d9e50.chunk.js",
+    "index.html": "/portfolio/index.html",
+    "main.c75bcb8e.css.map": "/portfolio/static/css/main.c75bcb8e.css.map",
+    "main.9cd213c6.js.map": "/portfolio/static/js/main.9cd213c6.js.map",
+    "453.438d9e50.chunk.js.map": "/portfolio/static/js/453.438d9e50.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c75bcb8e.css",
-    "static/js/main.0e921710.js"
+    "static/js/main.9cd213c6.js"
   ]
 }
