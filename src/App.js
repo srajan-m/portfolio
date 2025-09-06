@@ -18,13 +18,12 @@ function App() {
 
   return (
     <div className="App font-sans">
-       <Header/>
-      <Hero />
+      <Header />
+      <Hero />  
       <About />
       <Projects />
       <Contact />
       <Footer />
-    
     </div>
   );
 }
