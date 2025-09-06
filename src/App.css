@@ -1,0 +1,169 @@
+/* Base styles */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+  background: linear-gradient(135deg, #f5f0e6, #e8dfd3, #f0e6d6);
+  background-size: 400% 400%;
+  animation: gradientBG 20s ease infinite;
+  color: #3b3a36;
+}
+
+/* Smooth gradient animation */
+@keyframes gradientBG {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Fixed header */
+header {
+  background: linear-gradient(to right, #f5f0e6, #e8dfd3);
+  box-shadow: 0 2px 8px rgba(180, 150, 120, 0.2);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 50;
+  padding: rem 2rem;
+
+  display: flex;
+  flex-direction: row;
+ 
+}
+
+header h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #7c5e4b;
+  transition: color 0.3s ease;
+  margin-bottom: 0.5rem;
+}
+
+header h1:hover {
+  color: #a07c63;
+}
+
+header nav {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: left;
+  flex-wrap: wrap;
+}
+
+header nav a {
+  font-size: 1rem;
+  color: #5a4b3f;
+  transition: color 0.3s ease;
+}
+
+header nav a:hover {
+  color: #a07c63;
+  text-decoration: underline;
+}
+
+/* App container spacing to avoid header overlap */
+.App {
+  padding-top: 6rem;
+}
+
+/* Section layout (more compact) */
+section {
+  padding: 3.5rem 2rem;   /* reduced from 6rem */
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+}
+
+/* Space between sections (more compact) */
+section + section {
+  margin-top: 2rem;  /* reduced from 4rem */
+}
+
+/* Hero section */
+.hero h1 {
+  font-size: 3rem;
+  color: #5a4b3f;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  color: #6b5c50;
+  margin-bottom: 1.5rem;
+}
+
+/* Hover glow effect */
+.hover-glow:hover {
+  color: #7c6d5f;
+  transform: scale(1.03);
+  transition: all 0.3s ease;
+}
+
+/* Buttons */
+.btn {
+  padding: 0.8rem 2rem;
+  background: rgba(180, 150, 120, 0.8);
+  color: #fff;
+  font-weight: 500;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: inline-block;
+  margin: 0.5rem; /* small gap between buttons */
+}
+
+.btn:hover {
+  background: rgba(180, 150, 120, 1);
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(180, 150, 120, 0.5);
+}
+
+/* Project grid */
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+  justify-content: center; /* center projects */
+  align-items: center;
+  text-align: center;
+}
+
+/* Project cards */
+.project-card {
+  background: rgba(255, 255, 240, 0.6);
+  padding: 1.5rem;
+  border-radius: 12px;
+  backdrop-filter: blur(5px);
+  border: 1px solid rgba(180, 150, 120, 0.3);
+  transition: all 0.3s ease;
+  color: #3b3a36;
+  max-width: 300px; /* keep symmetry */
+  margin: 0 auto;
+}
+
+.project-card:hover {
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 0 0 15px rgba(180, 150, 120, 0.4);
+}
+
+/* Links */
+a {
+  color: #5a4b3f;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 2rem;
+  color: #5a4b3f;
+  font-size: 0.9rem;
+}
